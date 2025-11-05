@@ -9,7 +9,6 @@ My primary contribution focused on building the **Fusion RAG System** and implem
 - Designed and implemented the **RAG-Fusion pipeline**, integrating multiple query variations and **Reciprocal Rank Fusion (RRF)** for improved retrieval accuracy.  
 - Built the **routing logic** to automatically switch to direct **LLM generation** when the retrieved context lacked sufficient confidence or semantic overlap.  
 - Optimized **query generation and ranking parameters** (RRF-k, top-k retrieval) for better recall on diverse datasets.  
-- Conducted performance tests comparing pure RAG vs RAG-Fusion + fallback routing using **RAGAS metrics** (faithfulness, context precision).  
 
 > The original collaborative project can be found [here](https://github.com/dydy2010/GenAI_RAG_Sys_Code_Navigagor_for_Learning).  
 > My fork highlights the components I developed while preserving the team’s full work and authorship.
